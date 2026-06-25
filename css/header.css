@@ -29,7 +29,28 @@
     color: #2E2F42;
 }
 
-.nav-list .nav-link:hover
+.nav-list .nav-link:hover, 
+.nav-list .nav-link:focus
 {
-    color: #4D5AE5;
+    color: #404bbf;
+}
+
+.address
+{
+    font-style: normal;
+}
+
+.address-list
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.address-list .address-link:hover,
+.address-list .address-link:focus
+{
+    color: #404BBF;
 }
